@@ -6,8 +6,8 @@ overlaying a PNG of a mouse pointer on top of the figure.
 
 #### Figure 1
 
-[`fig1.html`](fig1.html) just loads `fig1_raw.png` and overlays
-`pointer.png`. I then used a screen shot to create
+[`fig1.html`](fig1.html) just loads [`fig1_raw.png`](fig1_raw.png) and overlays
+[`pointer.png`](pointer.png). I then used a screen shot to create
 [`fig1.png`](https://github.com/kbroman/Paper_Rqtlcharts/blob/master/Figs/fig1.png).
 
 #### Figure 2
@@ -19,11 +19,11 @@ version, [`fig2_pieces.js`](fig2_pieces.js)) and bits from
 [`qtlcharts/`](qtlcharts), to create examples of four different
 charts. Screen shots were captured as
 
-- `fig2_heatmap.png`
-- `fig2_scatterplot.png`
-- `fig2_lodchart.png`
-- `fig2_cichart.png`
+- [`fig2_heatmap.png`](fig2_heatmap.png)
+- [`fig2_scatterplot.png`](fig2_scatterplot.png)
+- [`fig2_lodchart.png`](fig2_lodchart.png)
+- [`fig2_cichart.png`](fig2_cichart.png)
 
 [`fig2.html`](fig2.html) loads those four individual images and
-overlays `pointer.png`. I then used a screen shot to create
+overlays [`pointer.png`](pointer.png). I then used a screen shot to create
 [`fig1.png`](https://github.com/kbroman/Paper_Rqtlcharts/blob/master/Figs/fig1.png).
