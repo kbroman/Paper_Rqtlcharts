@@ -21,6 +21,13 @@ Also available at [bioRxiv](http://biorxiv.org/content/early/2014/11/14/011437),
 
 ---
 
+Creation of the figures requires
+[ImageMagick](http://www.imagemagick.org/),
+[PhantomJS](http://phantomjs.org/)), and the R package
+[webshot](https://github.com/wch/webshot).
+
+---
+
 
 The manuscript is licensed under the
 [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/).
