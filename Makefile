@@ -1,4 +1,4 @@
-all: rqtlcharts.pdf SubFigs/fig2_pieces.js
+all: rqtlcharts.pdf
 
 .PHONY: all web dropbox JS
 
@@ -25,3 +25,6 @@ Figs/fig1.png: SubFigs/fig1.html SubFigs/fig1_raw.png SubFigs/pointer.png SubFig
 #	cd SubFigs;R CMD BATCH ${R_OPTS} grab_fig2.R
 #	convert -flatten Figs/fig2.png Figs/fig2_rev.png
 #	mv Figs/fig2_rev.png Figs/fig2.png
+
+SubFigs/fig2_%.png: SubFigs/grab_fig2_%.R SubFigs/fig2_%.html SubFigs/fig2_%.js
+	cd SubFigs;R CMD BATCH ${R_OPTS} $(<F)
