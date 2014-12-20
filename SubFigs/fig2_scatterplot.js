@@ -15,7 +15,7 @@ d3.json("qtlcharts/inst/panels/scatterplot/test/data.json", function(data) {
   w = 500;
   totalh = h + margin.top + margin.bottom;
   totalw = w + margin.left + margin.right;
-  svg = d3.select("div#scatterplot").append("svg").attr("height", totalh).attr("width", totalw);
+  svg = d3.select("div#scatterplot").append("svg").attr("id", "mainsvg").attr("height", totalh).attr("width", totalw);
   mychart = scatterplot().xvar(1).yvar(0).nxticks(6).height(h).width(w).margin(margin).pointsize(4).xlab("Phenotype 1").ylab("Phenotype 2").title("");
   chart = svg.append("g").attr("id", "scat_chart");
   chart.datum({

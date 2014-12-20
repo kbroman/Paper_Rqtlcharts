@@ -13,6 +13,7 @@ d3.json "qtlcharts/inst/panels/scatterplot/test/data.json", (data) ->
 
     svg = d3.select("div#scatterplot")
             .append("svg")
+            .attr("id", "mainsvg")
             .attr("height", totalh)
             .attr("width", totalw)
 
