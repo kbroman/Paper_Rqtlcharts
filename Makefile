@@ -24,7 +24,9 @@ Figs/fig1.png: SubFigs/fig1.html SubFigs/fig1_raw.png SubFigs/pointer.png SubFig
 Figs/fig2.png: SubFigs/fig2.html SubFigs/fig2_cichart.png SubFigs/fig2_heatmap.png SubFigs/fig2_lodchart.png SubFigs/fig2_scatterplot.png SubFigs/pointer.png SubFigs/grab_fig2.R
 	cd SubFigs;R CMD BATCH ${R_OPTS} grab_fig2.R
 	convert -flatten Figs/fig2.png Figs/fig2_rev.png
-	mv Figs/fig2_rev.png Figs/fig2.png
+	convert -crop 1090x884+80+85 Figs/fig2_rev.png Figs/fig2_rev2.png
+	mv Figs/fig2_rev2.png Figs/fig2.png
+	rm Figs/fig2_rev.png
 
 SubFigs/fig2_%.png: SubFigs/grab_fig2_%.R SubFigs/fig2_%.html SubFigs/fig2_%.js
 	cd SubFigs;R CMD BATCH ${R_OPTS} $(<F)
