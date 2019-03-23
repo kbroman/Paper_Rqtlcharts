@@ -1,5 +1,7 @@
 ### R/qtlcharts: interactive data visualizations for quantitative trait loci experiments
 
+[![doi badge](https://zenodo.org/badge/DOI/10.5281/zenodo.2603991.svg)](https://doi.org/10.5281/zenodo.2603991)
+
 [Karl Broman](http://kbroman.org)
 
 This repository contains the source for a manuscript, to appear in
