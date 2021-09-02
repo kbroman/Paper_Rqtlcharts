@@ -1,16 +1,17 @@
 ### R/qtlcharts: interactive data visualizations for quantitative trait loci experiments
 
-[![doi badge](https://zenodo.org/badge/DOI/10.5281/zenodo.2603991.svg)](https://doi.org/10.5281/zenodo.2603991)
+[![DOI](https://zenodo.org/badge/28095479.svg)](https://zenodo.org/badge/latestdoi/28095479)
 
-[Karl Broman](http://kbroman.org)
+This repository contains the source for the paper
 
-This repository contains the source for a manuscript, to appear in
-[Genetics](http://www.genetics.org), reporting the
-[R/qtlcharts software](http://kbroman.org/qtlcharts) for interactive
-graphics.
-
-Also available at [bioRxiv](http://biorxiv.org/content/early/2014/11/14/011437),
-[dx.doi.org/10.1101/011437](http://dx.doi.org/10.1101/011437).
+> Broman KW (2015) R/qtlcharts: interactive graphics for quantitative
+> trait locus mapping.
+> [Genetics](https://academic.oup.com/genetics) 199:359-361
+> [![PubMed](icons16/pubmed-icon.png)](https://www.ncbi.nlm.nih.gov/pubmed/25527287)
+> [![pdf](icons16/pdf-icon.png)](https://academic.oup.com/genetics/article-pdf/199/2/359/37801010/genetics0359.pdf)
+> [![GitHub](icons16/github-icon.png)](https://github.com/kbroman/Paper_Rqtlcharts)
+> [![R/qtlcharts software](icons16/R-icon.png)](https://kbroman.org/qtlcharts)
+> [![doi](icons16/doi-icon.png)](https://doi.org/10.1534/genetics.114.172742)
 
 ---
 
